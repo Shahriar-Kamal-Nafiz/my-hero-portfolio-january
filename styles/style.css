@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;/*it is used for making all border and content fit together*/
+
+}
+
+.font-open-sans{
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+}
+.logo h2{
+    font-size: 45px;
+    font-weight: 900;
+}
+header{
+    background-color: #FFF8F3;
+    margin-top: 50px;
+    background-image: url(../images/developer.png),url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left , bottom right;
+}nav{
+    width: 71%;
+    max-width: 1200px;
+    /* border: 1px solid red; */
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.color-orange{
+    color: #FD6E0A;
+}.menu{
+    list-style-type: none;
+    display: flex;
+    align-items:center;  /*  align items center is used to make top bottom center for all items inside a parent class */
+    gap: 51px;
+}nav .menu a{
+    font-size: 20px;
+    color: 474747;
+    text-decoration: none;
+}
+.btn{
+    color: white;
+    background-color: #FD6E0A;
+    /* width: 150px;
+    height: 65px; */
+    border: none;
+    padding:18px 35px; /*up-down left-right*/
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+
+}.banner{
+    display: flex;
+    justify-content: space-between;
+    /* it makes contents very distant */
+    align-items: center;
+    margin-left: 230px;
+}.banner-content{
+    max-width: 585px;
+    height: 356px;
+}
+.banner .banner-content h2{
+    font-size: 45px;
+    font-weight: 600;
+    color: #474747;
+    margin-bottom: 5px;
+}.banner .banner-content h1{
+    font-size: 85px;
+    font-weight: bold;
+    
+}.banner .banner-content p{
+    color: #757575;
+    font-size: 18px;
+    line-height: 30px;
+
+
+}.banner .banner-img{
+    max-width: 585;
+    vertical-align: middle;
+}
+.btn2{
+    color:#FD6E0A ;
+    background-color: white;
+    /* width: 150px;
+    height: 65px; */
+    border:1px solid #FD6E0A;
+    padding:18px 35px; /*up-down left-right*/
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+
+}
